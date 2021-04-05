@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>livrocsharp.funcoesTexto</StartupObject>
+    <StartupObject>livrocsharp.funcoesDatas</StartupObject>
   </PropertyGroup>
 
 </Project>
