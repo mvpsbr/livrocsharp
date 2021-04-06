@@ -1,0 +1,11 @@
+using static System.Console;
+using System;
+using System.Linq;
+
+namespace livrocsharp
+{
+    class conversaoDados
+    {
+        
+    }
+}

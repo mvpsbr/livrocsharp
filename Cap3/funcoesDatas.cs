@@ -1,6 +1,7 @@
 using static System.Console;
 using System;
 using System.Linq;
+using System.Globalization;
 
 namespace livrocsharp
 {
@@ -17,7 +18,7 @@ namespace livrocsharp
             WriteLine($"Aniversário: {dtAniversario}");
             WriteLine($"Aniversário: {dtAniversario:dd/MM/yyyy}");
             WriteLine($"Aniversário: {dtAniversario:dddd/MMM/yyyy}");
-            WriteLine($"Aniversário: {dtAniversario:dddd dd/MMM/yyyy}");
+            WriteLine($"Aniversário: {dtAniversario:dddd dd/MMMM/yyyy}");
 
             DateTime hoje = DateTime.Today;
             WriteLine("TODAY - retorna a data atual");
@@ -33,19 +34,28 @@ namespace livrocsharp
             WriteLine($"Ano: {DataHora.Year}");
 
             DateTime dtPedido = DateTime.Today;
+            // adiciona 35 dias
             DateTime dtVencto = dtPedido.AddDays(35);
+            // adicionar 2 meses
             DateTime dtPagto = dtVencto.AddMonths(2);
-            WriteLine($"Pedido feito em {dtPedido:dd/MM/yyyy} vence em {dtVencto:dd/MM/yyyy}");
+            WriteLine($"Pedido feito em {dtPedido:dd/MMM/yyyy} vence em {dtVencto:dd/MMM/yyyy}");
             WriteLine($"Formatação completa: {dtVencto.ToLongDateString()}");
-            WriteLine($"Formatação curta:{dtVencto.ToShortDateString()}");
+            WriteLine($"Formatação curta: {dtVencto.ToShortDateString()}");
+            // dia da semana
             WriteLine($"dia da semana: {dtVencto.DayOfWeek}");
-            WriteLine($"dia do ano:{dtVencto.DayOfYear}");
+            WriteLine($"dia do semana em português: {dtVencto.ToString("dddd", new CultureInfo("pt-BR"))}");
+            WriteLine($"Número do dia da semana: {(int)dtVencto.DayOfWeek}");
+            // dia da ano
+            WriteLine($"dia do ano: {dtVencto.DayOfYear}");
+            // subtrai 2 datas
             var qtdeDias = dtPagto.Subtract(dtPedido);
             WriteLine($"Entre o pedido e o pagamento foram {qtdeDias:dd} dias");
 
             WriteLine("Conversão de Texto para Date");
             string dataTexto = "15/07/2021";
             DateTime dataTextoConvertida;
+            // tentativa (TryParse) de conversão de dataTexto
+            // caso dê certo a saída OUT será em dataTextoConvertida
             if( DateTime.TryParse(dataTexto, out dataTextoConvertida))
                 WriteLine("Data com conversão aceita");
             else
@@ -57,32 +67,31 @@ namespace livrocsharp
                 WriteLine("Data com conversão aceita");
             else
                 WriteLine("Erro na conversão da data");
-        
+
             // uso de Datas em Objetos
             var pedido = new Pedido
             {
                 PedidoID = 1,
                 DtPedido = DateTime.Today,
-                DtPagto = dtPedido.AddDays(45),
+                DtPagto = DateTime.Today.AddDays(45),
                 Valor = 1500
             };
 
             WriteLine($"Pedido: {pedido.PedidoID} - " +
-                $"{pedido.DtPedido:dd/MM/yyyy} - " +
-                $"vencto: {pedido.DtVencto():dd/MM/yyyy} - " +
+                $"{pedido.DtPedido:dd/MMM/yyyy} - " +
+                $"vencto: {pedido.DtVencimento():dd/MMM/yyyy} - " +
                 $"dias atraso: {pedido.DiasAtraso().TotalDays} - " +
                 $"valor: {pedido.Valor:n2} - " +
                 $"multa: {pedido.Multa:n2}");
-
         }
     }
     public class Pedido
     {
         public int PedidoID { get; set; }
         public DateTime DtPedido { get; set; }
-        public DateTime DtVencto() => DtPedido.AddDays(30);
+        public DateTime DtVencimento() => DtPedido.AddDays(30);
         public DateTime DtPagto { get; set; }
-        public TimeSpan DiasAtraso() => DtPagto.Subtract(DtVencto());
+        public TimeSpan DiasAtraso() => DtPagto.Subtract(DtVencimento());
         public decimal Valor { get; set; }
         public decimal Multa => Valor * 0.10M;
     } 
