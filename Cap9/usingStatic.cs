@@ -29,7 +29,6 @@ namespace livrocsharp
          WriteLine($"Concatena 2 strings: {Concat("Livro de C#, ", "Livro de EF Core")}");
          string livro = "Livro de EF Core";
          WriteLine($"{livro.Insert(6, "avançado ").ToUpper()}");
-
       }
    }
 }
