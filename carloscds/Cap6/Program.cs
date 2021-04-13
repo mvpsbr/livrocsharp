@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace livrocsharp
+namespace livrocsharp2
 {
     class Program
     {

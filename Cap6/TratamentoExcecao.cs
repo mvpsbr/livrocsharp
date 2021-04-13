@@ -2,7 +2,7 @@
 
 namespace livrocsharp
 {
-    class Program
+    class TratamentoExcecao
     {
         static void Main(string[] args)
         {
