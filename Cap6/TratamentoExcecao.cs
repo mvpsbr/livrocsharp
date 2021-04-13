@@ -32,6 +32,10 @@ namespace livrocsharp
             {
                 Console.WriteLine($"Erro: {ex.Message}");
             }
+            finally
+            {
+                Console.WriteLine("Sempre vai executar o Finally");
+            }
             Console.WriteLine("Fim");
         }
     }
