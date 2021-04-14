@@ -2,6 +2,7 @@ using static System.Console;
 using System;
 using CompDLL;
 
+
 namespace livrocsharp
 {
     class ConsomeDLL
