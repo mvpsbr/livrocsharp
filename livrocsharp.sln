@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "livrocsharp", "livrocsharp.csproj", "{139D256E-5C1A-47F3-BA3B-D8803B62A7C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Componentes", "Componentes\Componentes.csproj", "{84B44F83-800D-4889-A7A6-1CAE62E4D538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cap11", "Cap11\Cap11.csproj", "{863C3EDF-CFBB-4AD4-B715-D15A4C56D69D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139D256E-5C1A-47F3-BA3B-D8803B62A7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139D256E-5C1A-47F3-BA3B-D8803B62A7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139D256E-5C1A-47F3-BA3B-D8803B62A7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139D256E-5C1A-47F3-BA3B-D8803B62A7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B44F83-800D-4889-A7A6-1CAE62E4D538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B44F83-800D-4889-A7A6-1CAE62E4D538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B44F83-800D-4889-A7A6-1CAE62E4D538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B44F83-800D-4889-A7A6-1CAE62E4D538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863C3EDF-CFBB-4AD4-B715-D15A4C56D69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863C3EDF-CFBB-4AD4-B715-D15A4C56D69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863C3EDF-CFBB-4AD4-B715-D15A4C56D69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863C3EDF-CFBB-4AD4-B715-D15A4C56D69D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97479103-7577-47F2-8B09-D186FA728F53}
+	EndGlobalSection
+EndGlobal
