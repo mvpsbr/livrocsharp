@@ -1,8 +1,6 @@
-using ProgramaPrincipal;
-
-namespace MyProgram
+namespace livrocsharp
 {
-    public class ClasseUm
+    public class ClasseDois
     {
         public static void Main()
         {

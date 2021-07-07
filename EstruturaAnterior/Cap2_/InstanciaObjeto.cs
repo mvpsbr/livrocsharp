@@ -1,4 +1,4 @@
-namespace SistemaBancario{
+namespace livrocsharp {
     public class InstanciaObjeto
     {
         public static void Main()
