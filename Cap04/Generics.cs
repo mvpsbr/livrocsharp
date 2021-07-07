@@ -10,7 +10,7 @@ namespace livrocsharp {
     class TestListaGenerica
     {
         private class ExampleClass { }
-        static void Main()
+        static void Testa()
         {
             // Declarando uma lista do tipo inteiro
             ListaGenerica<int> lista1 = new ListaGenerica<int>();

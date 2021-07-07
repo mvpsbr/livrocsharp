@@ -5,7 +5,7 @@ namespace livrocsharp {
     
     public class ExemploList 
     {        
-    static void Main()
+    static void Testa()
         {
             List<string> nomesFuncionarios = new List<string>();
 
