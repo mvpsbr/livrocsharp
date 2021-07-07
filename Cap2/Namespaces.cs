@@ -1,4 +1,4 @@
-namespace ProgramaPrincipal {    
+namespace livrocsharp {    
     public class ClasseUm 
     {        
         public int Id { get; set; }

@@ -1,4 +1,4 @@
-namespace SistemaBancario{
+namespace livrocsharp {
     public class Gerente {
         public string Nome { get; set; }
         public int Idade { get; set; }
