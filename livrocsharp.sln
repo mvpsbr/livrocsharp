@@ -19,6 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cap09", "Cap09\Cap09.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cap04", "Cap04\Cap04.csproj", "{E1D85AB8-BAFF-47EF-BC2F-02CFC0224485}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap13", "Cap13", "{605895B7-BD3F-40E4-97DA-20C4B6AFA5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja", "Cap13\Loja\Loja.csproj", "{6BB379DC-A820-45BE-BD6C-670D7AFC7B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Tests", "Cap13\Loja.Tests\Loja.Tests.csproj", "{72AD4FD7-155C-40F9-BBD9-F87271BB1440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,11 +63,23 @@ Global
 		{E1D85AB8-BAFF-47EF-BC2F-02CFC0224485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D85AB8-BAFF-47EF-BC2F-02CFC0224485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D85AB8-BAFF-47EF-BC2F-02CFC0224485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB379DC-A820-45BE-BD6C-670D7AFC7B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB379DC-A820-45BE-BD6C-670D7AFC7B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB379DC-A820-45BE-BD6C-670D7AFC7B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB379DC-A820-45BE-BD6C-670D7AFC7B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AD4FD7-155C-40F9-BBD9-F87271BB1440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AD4FD7-155C-40F9-BBD9-F87271BB1440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AD4FD7-155C-40F9-BBD9-F87271BB1440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AD4FD7-155C-40F9-BBD9-F87271BB1440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97479103-7577-47F2-8B09-D186FA728F53}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BB379DC-A820-45BE-BD6C-670D7AFC7B30} = {605895B7-BD3F-40E4-97DA-20C4B6AFA5CE}
+		{72AD4FD7-155C-40F9-BBD9-F87271BB1440} = {605895B7-BD3F-40E4-97DA-20C4B6AFA5CE}
 	EndGlobalSection
 EndGlobal
