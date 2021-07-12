@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Tests", "Cap13\Loja.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap10", "Cap10", "{4461613A-A82C-483D-A553-CD79C7CAC463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadAssincrono", "DownloadAssincrono\DownloadAssincrono.csproj", "{230E1465-7A32-49DE-A9EF-848F62268C38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cap10\DownloadAssincrono", "Cap10\DownloadAssincrono\DownloadAssincrono.csproj", "{230E1465-7A32-49DE-A9EF-848F62268C38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
