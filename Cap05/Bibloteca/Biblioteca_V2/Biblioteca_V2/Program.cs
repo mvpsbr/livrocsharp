@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 using Libraryclass;
 namespace Biblioteca_V2
 {
@@ -7,22 +8,22 @@ namespace Biblioteca_V2
         static void Main(string[] args)
         {
             //inicializando nossa nova classe Fotos
-            Fotos MinhasFotos = new Fotos("Colorida");
-            MinhasFotos.AnoPublicacao = 2021;
-            MinhasFotos.MesPublicacao = 3;
-            MinhasFotos.Autor = "Desconhecido";
-            MinhasFotos.Titulo = "Vida Eterna";
-            MinhasFotos.Paginas = 1;
-            MinhasFotos.Status = true;
-                //imprimindo os valores de minha classe
-            Console.WriteLine("Foto Tipo: "+ MinhasFotos.Tipo);
-            Console.WriteLine("Foto Mes: "+ MinhasFotos.MesPublicacao);
-            Console.WriteLine("Foto Ano: "+ MinhasFotos.AnoPublicacao);
-            Console.WriteLine("Foto Autor: "+ MinhasFotos.Autor);
-            Console.WriteLine("Foto Titulo: "+MinhasFotos.Titulo);
-            Console.WriteLine("Foto Paginas: "+MinhasFotos.Paginas);
-            Console.WriteLine("Foto Status: "+MinhasFotos.Status);
-            Console.WriteLine();
+            // Fotos MinhasFotos = new Fotos("Colorida");
+            // MinhasFotos.AnoPublicacao = 2021;
+            // MinhasFotos.MesPublicacao = 3;
+            // MinhasFotos.Autor = "Desconhecido";
+            // MinhasFotos.Titulo = "Vida Eterna";
+            // MinhasFotos.Paginas = 1;
+            // MinhasFotos.Status = true;
+            //     //imprimindo os valores de minha classe
+            // WriteLine("Foto Tipo: "+ MinhasFotos.Tipo);
+            // WriteLine("Foto Mes: "+ MinhasFotos.MesPublicacao);
+            // WriteLine("Foto Ano: "+ MinhasFotos.AnoPublicacao);
+            // WriteLine("Foto Autor: "+ MinhasFotos.Autor);
+            // WriteLine("Foto Titulo: "+MinhasFotos.Titulo);
+            // WriteLine("Foto Paginas: "+MinhasFotos.Paginas);
+            // WriteLine("Foto Status: "+MinhasFotos.Status);
+            // WriteLine();
 
             //inicializando nossa nova classe com herança
             Revistas MinhasRevistas = new Revistas(3,2021);
@@ -32,13 +33,13 @@ namespace Biblioteca_V2
             MinhasRevistas.Paginas = 20;
             MinhasRevistas.Status = true;
             //imprimindo os valores de minha classe
-            Console.WriteLine("Revista Mes: "+ MinhasRevistas.MesPublicacao);
-            Console.WriteLine("Revista Ano: "+ MinhasRevistas.AnoPublicacao);
-            Console.WriteLine("Revista Autor: "+ MinhasRevistas.Autor);
-            Console.WriteLine("Revista Titulo: "+MinhasRevistas.Titulo);
-            Console.WriteLine("Revista Paginas: "+MinhasRevistas.Paginas);
-            Console.WriteLine("Revista Status: "+MinhasRevistas.Status);
-            Console.WriteLine();
+            WriteLine("Revista Mes: "+ MinhasRevistas.MesPublicacao);
+            WriteLine("Revista Ano: "+ MinhasRevistas.AnoPublicacao);
+            WriteLine("Revista Autor: "+ MinhasRevistas.Autor);
+            WriteLine("Revista Titulo: "+MinhasRevistas.Titulo);
+            WriteLine("Revista Paginas: "+MinhasRevistas.Paginas);
+            WriteLine("Revista Status: "+MinhasRevistas.Status);
+            WriteLine();
 
             //Inicializando nossa classe com o construtor nulo
             Biblioteca MinhaBiblioteca = new Biblioteca();
@@ -48,20 +49,20 @@ namespace Biblioteca_V2
             MinhaBiblioteca.Paginas = 203;
             MinhaBiblioteca.Status = true;
             //imprimindo os valores de minha classe
-            Console.WriteLine("Autor: "+ MinhaBiblioteca.Autor);
-            Console.WriteLine("Titulo: "+MinhaBiblioteca.Titulo);
-            Console.WriteLine("Paginas: "+MinhaBiblioteca.Paginas);
-            Console.WriteLine("Status: "+MinhaBiblioteca.Status);
-            Console.WriteLine();
+            WriteLine("Autor: "+ MinhaBiblioteca.Autor);
+            WriteLine("Titulo: "+MinhaBiblioteca.Titulo);
+            WriteLine("Paginas: "+MinhaBiblioteca.Paginas);
+            WriteLine("Status: "+MinhaBiblioteca.Status);
+            WriteLine();
 
             //Inicializando nossa classe com o novo construtor
             Biblioteca MeusLivros = new Biblioteca("Juan Garcia Sola", "Linguagem C", 296, true);
             //imprimindo os valores de minha classe
-            Console.WriteLine("Autor: "+ MeusLivros.Autor);
-            Console.WriteLine("Titulo: "+MeusLivros.Titulo);
-            Console.WriteLine("Paginas: "+MeusLivros.Paginas);
-            Console.WriteLine("Status: "+MeusLivros.Status);
-            Console.WriteLine();
+            WriteLine("Autor: "+ MeusLivros.Autor);
+            WriteLine("Titulo: "+MeusLivros.Titulo);
+            WriteLine("Paginas: "+MeusLivros.Paginas);
+            WriteLine("Status: "+MeusLivros.Status);
+            WriteLine();
         }
     }
 }

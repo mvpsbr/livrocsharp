@@ -5,6 +5,14 @@ namespace MinhaPrimeiraClasse
     {
         static void Main(string[] args)
         {
+            // //Declaramos uma variavel do tipo string (texto)
+            // String Digitado = new String("");
+            // //Solicitamos que o usuario digite alguma coisa e
+            // //armazene na variavel criada
+            // Digitado = Console.ReadLine();
+            // //Mostramos o que foi digitado            
+            // Console.WriteLine(Digitado);
+
             //Criamos o objeto Pedido herdado da clase InteracaoUsuario              
             InteracaoUsuario Pedido = new InteracaoUsuario();
             //Invocamos os metodos do objeto Pedido herdado da classe mãe InteracaoUsuario
@@ -13,9 +21,9 @@ namespace MinhaPrimeiraClasse
         }
     }
 
-    //Criamos a Classe c_InteracaoUsuario com dois metodos principais
+    //Criamos a Classe InteracaoUsuario com dois metodos principais
     //Método que solicita a digitação de algo no terminal
-    //Método que mostra o que retorna o que foi digitado
+    //Método que mostra o que foi digitado
     class InteracaoUsuario
     {
         public string SolicitarDigitacao()

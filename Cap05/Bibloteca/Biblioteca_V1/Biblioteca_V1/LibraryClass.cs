@@ -1,13 +1,13 @@
-//Name space eque irá conter a classe de controle de livros e seus metodos
+//namespace eque irá conter a classe de controle de livros e seus metodos
 namespace Libraryclass
 {
-    //Nossa principal classe de controle de livros na Biblioteca
+    //principal classe de controle de livros na Biblioteca
     public class Biblioteca
     {
-        private string _Titulo; //recebra o titulo do livro
-        private string _Autor; //recebera o nome do autor do Livro
-        private int _Paginas; ///receberá o númerp de paginas que o Livro contem
-        private bool _Status; //receberá saindo (FALSE) ou entrando (TRUE) na biblioteca
+        private string _Titulo; //recebe o titulo do livro
+        private string _Autor; //recebe o nome do autor do Livro
+        private int _Paginas; ///recebe o númerp de paginas que o Livro contem
+        private bool _Status; //recebe saindo (FALSE) ou entrando (TRUE) na biblioteca
     
         public Biblioteca() //Construtor sem parametros
         {
@@ -21,7 +21,7 @@ namespace Libraryclass
             _Paginas = Paginas;
             _Status = Status;        
         }
-        public string Titulo //Metodo para acesso a propriedade da classe "Titulo"
+        public string Titulo //Metodo para acesso a propriedade Titulo da classe
         {
             get {return _Titulo;} set { _Titulo = value;}
         }
@@ -37,13 +37,5 @@ namespace Libraryclass
         {
             get {return _Status;} set { _Status = value;}
         }
-
     }
-
-
-
-
-
-
-
 }

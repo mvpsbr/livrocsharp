@@ -1,7 +1,7 @@
  using System;   
- //Criamos a Classe InteracaoUsuario com dois metodos principais
+ //Classe InteracaoUsuario com dois metodos principais
  //Metodo que solicita a digitacao de algo no terminal
- //Metodo que mostra o que retorna o que foi digitado
+ //Metodo que mostra o que foi digitado
  namespace MinhaClasseUsuario
  {
     public class InteracaoUsuario

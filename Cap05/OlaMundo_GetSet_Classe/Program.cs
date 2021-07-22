@@ -14,9 +14,9 @@ namespace MinhaPrimeiraClasse
             Pedido.SolicitarDigitacao();
             Pedido.MostrarDigitacao();
             
-            //Recupero pelo metodo GET o valor da mensgaem digitada para futura manipulação
+            //Recuperamos pelo metodo GET o valor da mensgaem digitada para futura manipulação
             var Digitado = Pedido.Mensagem;
-            //Escrevo a nova mensagem colocando toda a mensagem em Maiuscula
+            //Escrevemos a nova mensagem colocando toda a mensagem em Maiuscula
             Console.WriteLine("Nova Digitação sem Espaços -> " + Digitado.ToUpper());
         }
     }

@@ -1,13 +1,13 @@
-//Name space eque irá conter a classe de controle de livros e seus metodos
+//namespace que irá conter a classe de controle de livros e seus metodos
 namespace Libraryclass
 {
-    //Nossa classe para controlar as fotos
+    //classe para controlar as fotos
      public class Fotos : Revistas
     {
         //Propriedades da Classe
         private string _Tipo;
-        //Construtor da classe neste construtor preciso referenciar a classe 
-        //base por c_Revista ser uma classe já herdada de c_Biblioteca        
+        //neste construtor preciso referenciar a classe base 
+        //Revistas é uma classe já herdada de Biblioteca        
         public Fotos(string Tipo) : base (0,0)
         {
             _Tipo = Tipo;
@@ -19,7 +19,7 @@ namespace Libraryclass
     }
     
     
-    //Nossa nova classe para controlar as revistas
+    //nova classe para controlar as revistas
     public class Revistas : Biblioteca
     {
         //Propriedades da Classe
@@ -40,7 +40,7 @@ namespace Libraryclass
             get {return _AnoPublicacao;} set { _AnoPublicacao = value;}
         }
     }
-    //Nossa principal classe de controle de livros na Biblioteca
+    //principal classe de controle de livros na Biblioteca
     public class Biblioteca
     {
         private string _Titulo; //recebra o titulo do livro
@@ -51,7 +51,8 @@ namespace Libraryclass
         {
 
         }
-        //Construtor com parametros note que o nome do metodo é o mesmo, estamos usando sobregarca
+        //Construtor com parametros 
+        //note que o nome do metodo é o mesmo (sobrecarga)
         public Biblioteca( string Titulo, string Autor, int Paginas, bool Status)
         {
             _Titulo = Titulo;
