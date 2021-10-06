@@ -29,7 +29,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Tests", "Cap13\Loja.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap10", "Cap10", "{4461613A-A82C-483D-A553-CD79C7CAC463}"
 EndProject
-
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DownloadAssincrono", "Cap10\DownloadAssincrono\DownloadAssincrono.csproj", "{230E1465-7A32-49DE-A9EF-848F62268C38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploAPI", "Cap10\ExemploAPI\ExemploAPI.csproj", "{B9EACC32-FDBD-40B0-8D6C-25FF530FDE23}"
@@ -45,6 +44,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlaMundo_GetSet", "Cap05\OlaMundo_GetSet\OlaMundo_GetSet.csproj", "{6DB23AA0-350E-4242-9C15-A47FFA68D467}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlaMundo_GetSet_Classe", "Cap05\OlaMundo_GetSet_Classe\OlaMundo_GetSet_Classe.csproj", "{DF0858D8-6441-4A38-8480-8D869026FFC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cap08", "Cap08\Cap08.csproj", "{E06708E2-DA53-4373-91F6-2E1A65620935}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -124,6 +125,10 @@ Global
 		{DF0858D8-6441-4A38-8480-8D869026FFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0858D8-6441-4A38-8480-8D869026FFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0858D8-6441-4A38-8480-8D869026FFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06708E2-DA53-4373-91F6-2E1A65620935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06708E2-DA53-4373-91F6-2E1A65620935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06708E2-DA53-4373-91F6-2E1A65620935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06708E2-DA53-4373-91F6-2E1A65620935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
