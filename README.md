@@ -33,8 +33,9 @@ Caso sintam dificuldades para executar suas primeiras linhas de código em C# no
 ## ❗️ Links & Recursos Importantes
 
 - ✅ **[Documentação Oficial do C#](https://docs.microsoft.com/dotnet/csharp/?WT.mc_id=javascript-44697-gllemos)**
+- ✅ **[Página Oficial do C#](https://dotnet.microsoft.com/languages/csharp/?WT.mc_id=javascript-44697-gllemos)**
 - ✅ **[Site Oficial DotNET - Learn .NET](https://dotnet.microsoft.com/learn?WT.mc_id=javascript-44697-gllemos)**
-- ✅ **[C# no Visual Studio Code](https://code.visualstudio.com/docs/languages/typescript?WT.mc_id=javascript-14034-gllemos)**
+- ✅ **[C# no Visual Studio Code](https://code.visualstudio.com/docs/languages/csharp?WT.mc_id=javascript-14034-gllemos)**
 - ✅ **[Cursos Grátis C# - Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dotnet&WT.mc_id=javascript-44697-gllemos)**
 
 ## ❓ Tenho Dúvidas... O que Faço?!
