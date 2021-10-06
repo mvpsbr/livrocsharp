@@ -10,7 +10,7 @@ O livro é totalmente grátis e foi desenvolvido pela Comunidade para a Comunida
 
 Esse projeto foi desenvolvido pela Comunidade para a Comunidade Técnica Brasileira. Abaixo segue as pessoas que contribuíram para o projeto: 
 
-* ✅ **[André Carlucci - MVP & Global Director of Application Engineering](https://www.linkedin.com/in/andrecarlucci/)**
+* ✅ **[André Carlucci - RD & Global Director of Application Engineering](https://www.linkedin.com/in/andrecarlucci/)**
 * ✅ **[Carlos dos Santos - MVP & P&D - Software Developer and Architect](https://www.linkedin.com/in/cdssoftware/)**
 * ✅ **[Claudenir Andrade - RD MVP & Tech Director](https://www.linkedin.com/in/claudenirandrade/)**
 * ✅ **[Rafael Almeida - MVP & Principal Software Engineer](https://www.linkedin.com/in/ralmsdeveloper/)**
