@@ -1,4 +1,4 @@
-# Códigos Demos do Livro - C# para Iniciantes
+# Códigos Demos do Livro C# para Iniciantes
 
 [![LIvro-CSharp-Capa.png](https://i.postimg.cc/pT32krK8/LIvro-CSharp-Capa.png)](https://postimg.cc/Fdg5H9Ws)
 
